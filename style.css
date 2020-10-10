@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&family=Sora&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+font-size:150%;
+font-style: oblique;
+text-align: center;
+color: white;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Sora', sans-serif;
+}
+body{
+    background-image: url("wall-e.jpg");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        height: 50px;
+        font-size: 20px;
+}
+.nav li{
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    }
+    .nav a{
+        text-decoration: none;
+        display: block;
+        width: 100px;
+        font-size: 20px;
+        color: white;
+    }
+    .nav a:hover{
+        color:palevioletred;
+        font-style:inherit;
+        background-color: transparent;
+        border: 2px solid pink;
+        transition:.3s ease;
+    }
